@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>𝐈𝐂𝐂 𝐎𝐑𝐈𝐆𝐈𝐍𝐀𝐋™𝟸𝟶𝟷𝟶</title>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '952536974027629');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=952536974027629&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+</head>
+
+<body style="
+margin:0;
+font-family: Arial, sans-serif;
+background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+url('background.jpeg');
+background-size: cover;
+background-position: center;
+color: white;
+">
+
+<!-- MAIN WRAPPER -->
+<div style="
+max-width: 420px;
+margin: auto;
+padding: 30px 15px;
+text-align: center;
+">
+
+<!-- ================= EDIT SECTION START ================= -->
+
+<!-- LOGO -->
+<img src="logo.png"
+style="width:110px; margin-bottom:5px;">
+
+<!-- BRAND NAME -->
+<h1 style="color:#ffffff; letter-spacing:2px; margin:10px 0;">
+𝐈𝐂𝐂 𝐎𝐑𝐈𝐆𝐈𝐍𝐀𝐋™𝟸𝟶𝟷𝟶
+</h1>
+
+<!-- TAGLINE -->
+<p style="font-size:14px; margin-bottom:5px;">
+Built for accuracy | Backed by consistency
+</p>
+<p style="font-size:14px; margin-bottom:10px;">
+𝐓𝐇𝐄 𝐎𝐍𝐋𝐓 𝐓𝐑𝐔𝐒𝐓𝐄𝐃 𝐓𝐈𝐏𝐏𝐄𝐑 𝐒𝐈𝐍𝐂𝐄 𝟐𝟎𝟏𝟎
+</p>
+
+<!-- FEATURES -->
+<p style="color:#FFD700; margin-bottom:15px;">
+Luck nahi, logic wala prediction<br>
+Prediction nhi match pr pura control
+</p>
+
+
+<!-- PREDICTION HISTORY -->
+<h3 style="color:red; margin-bottom:15px;">
+Previous predictions
+</h3>
+
+<p>
+• <b>IPL 2024: 69/72 — Controlled</b><br>
+• <b>T20 WC 2024: 51/54 — Dominated</b><br>
+• <b>BBL 24–25: 41/45 — Ruthless</b><br>
+• <b>PSL 2025: 34/36 — Precise</b><br>
+• <b>IPL 2025: 71/74 — Elite Run</b><br>
+</p>
+
+
+
+ <!-- 🔴 TIMER HEADING -->
+<h4 style="color:red; margin-bottom:5px;">
+FREE JOINING ENDS IN
+</h4>
+
+<!-- 🔴 TIMER -->
+<div id="timer"
+style="
+font-size:32px;
+font-weight:bold;
+color:red;
+margin-bottom:15px;
+">
+00:30
+</div>
+<a id="joinLink" href="https://t.me/+rTIwJWGrbVA1MzE9">
+
+<!-- JOIN BUTTON -->
+<a <a id="joinLink"
+onclick="fbq('track','Lead');" 
+href="https://t.me/+rTIwJWGrbVA1MzE9"
+style="
+display:block;
+background:#0000FF;
+color:#000000;
+padding:15px;
+border-radius:30px;
+font-size:18px;
+font-weight:bold;
+text-decoration:none;
+margin-bottom:25px;
+">
+<b>CLICK TO JOIN</b>
+</a>
+
+<!-- ================= EDIT SECTION END ================= -->
+
+</div>
+ 
+ <!-- ⏱ TIMER SCRIPT -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    let timeLeft = 30;
+    let timer = document.getElementById("timer");
+    let joinLink = document.getElementById("joinLink").href;
+
+    let countdown = setInterval(function () {
+
+        let seconds = timeLeft < 10 ? "0" + timeLeft : timeLeft;
+        timer.innerHTML = "00:" + seconds;
+
+        if (timeLeft === 0) {
+            clearInterval(countdown);
+         
+         // 🔴 META PIXEL EVENT ON TIMER END
+            fbq('track', 'CompleteRegistration');
+         
+            window.location.href = joinLink;
+        }
+
+        timeLeft--;
+
+    }, 1000);
+
+});
+</script>
+
+
+</body>
+</html>
